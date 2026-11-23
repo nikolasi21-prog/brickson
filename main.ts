@@ -4,9 +4,9 @@ input.onGesture(Gesture.Shake, function () {
     if (random_number == 1) {
         basic.showIcon(IconNames.SmallSquare)
     } else if (random_number == 2) {
-        basic.showIcon(IconNames.Square)
-    } else {
         basic.showIcon(IconNames.Scissors)
+    } else {
+        basic.showIcon(IconNames.Square)
     }
 })
 basic.forever(function () {
